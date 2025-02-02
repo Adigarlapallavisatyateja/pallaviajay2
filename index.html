@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Page with Bookmarks</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header, nav, section, article, aside, footer {
+            padding: 20px;
+            margin: 10px;
+            border-radius: 8px;
+        }
+        header {
+            background: #333;
+            color: white;
+            text-align: center;
+        }
+        nav {
+            background: #444;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        main {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        section {
+            flex: 2;
+            background: #f4f4f4;
+        }
+        aside {
+            flex: 1;
+            background: #ddd;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Semantic Webpage</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>This is the about section where we describe our purpose.</p>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <article>
+                <h3>Web Development</h3>
+                <p>We offer top-notch web development services.</p>
+            </article>
+            <article>
+                <h3>SEO Optimization</h3>
+                <p>Improve your website's ranking with our SEO techniques.</p>
+            </article>
+        </section>
+
+        <aside>
+            <h2>Latest News</h2>
+            <p>Stay updated with our latest news and articles.</p>
+        </aside>
+    </main>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@website.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 My Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
